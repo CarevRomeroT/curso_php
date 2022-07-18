@@ -19,16 +19,45 @@ echo $cambiodelinea;
 
 $numero = array(1,2,3,4,5);
 
-echo $numero[4]
+echo $numero[4];
 
-//ARRAYS ASOCIATIVAS
+//ARRAYS OPERATIVAS
 $edad = array(
     'juan' => 11,
     'pedro' => 20,
     'david' => 35
 );
 
+echo $cambiodelinea;
 echo $edad['pedro'];
+
+$numeross = [1,2,3,4,5,6,7,8];
+    $suma = array_sum($numeross);
+    echo $cambiodelinea;
+    echo $suma;
+
+//ARRAYS ASOCIATIVAS
+
+$numerosss = array(1,2,3,4,5,6);
+$numerosss[] = 100;
+
+echo "<pre>";
+var_dump($numerosss);
+echo "</prev";
+
+
+$asociativo = array(
+    'juan' => 12,
+    'pedro' => 33,
+    'maria' => 22
+);
+
+$asociativo['jeremias'] = 100;
+
+echo "<pre>";
+var_dump($asociativo);
+echo "</prev";
+
 
 
 ?>
